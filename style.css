@@ -211,3 +211,11 @@ input:focus{
         margin-bottom: 30px;
     }
 }
+@media screen and (max-width: 500px) {
+    .news{
+        height: 90vw;
+    }
+    .news h2{
+        font-size: 30px;
+    }
+}
