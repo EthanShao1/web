@@ -1,14 +1,74 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue</title>
-    <script type="module" crossorigin src="./assets/index-AVNj58--.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-J5hmAf1z.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>烘培工坊</title>
+    <link rel="stylesheet" href=".\style.css">
+</head>
+<body>
+    <header>
+        <h1>烘培工坊</h1>
+        <button class="menu">&#9776;</button>
+
+        <nav>
+            <ul>
+                <li><a href="#">最新消息</a></li>
+                <li><a href="#">關於我們</a></li>
+                <li><a href="#">門市據點</a></li>
+                <li><a href="#">會員專區</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="news">
+            <h2>健康穀物麵包新鮮出爐！</h2>
+            <p><strong>亞麻的細語...</strong></p>
+            <p><a href="#">了解更多</a></p>
+        </section>
+        <section class="slogan">
+            <blockquote>" 嚴選天然食材，<br />讓幸福口中..."</blockquote>
+        </section>
+        <section class="shop">
+            <img src=".\images\shop.png" alt="烘焙工坊大安店">
+            <div class="info">
+                <h2>8/1大安店開幕！</h2>
+                <p>享受花完悠閒時光<br />
+                    即日起消費加入LINE好友可獲得精緻小點心
+                </p>
+            </div>
+        </section>
+        <section class="product">
+            <div>
+                <img src="./images/p1.png" alt="巴黎風法式土司">
+                <h3>巴黎風法式土司</h3>
+                <p>外皮黃金酥脆，內質鬆軟<br />
+                    讓您體驗法式浪漫的享受
+                </p>
+            </div>
+            <div>
+                <img src="./images/p2.png" alt="皇家奶油可頌麵包">
+                <h3>皇家奶油可頌麵包</h3>
+                <p>酥脆口感搭配奶油的濃郁香氣<br />
+                    品嘗簡單而純粹的美味</p>
+            </div>
+            <div>
+                <img src="./images/p3.png" alt="健康營養全麥土司">
+                <h3>健康營養全麥土司</h3>
+                <p>全麥製成，口感柔韌紮實<br />
+                    天然養分健康首選</p>
+            </div>
+        </section>
+        <section class="newletter">
+            <p>歡迎訂閱烘焙工坊電子報，可不定期收到限定優惠！</p>
+            <form>
+                <input type="email" placeholder="請輸入您的Email" required>
+                <button type="submit">送出</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2023 烘培工坊 All Rights Reserved</p>
+    </footer>
+</body>
 </html>
